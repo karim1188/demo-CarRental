@@ -1,0 +1,9 @@
+POST http://localhost:5000/suppliers
+Content-Type: application/json
+
+{
+    "name": "Ezz Elarab Automotive",
+    "email": "sales@EZZELARAB.com",
+    "address": " Km 28 Cairo – Alexandria desert road, Abou Rawash, Giza ",
+    "imgURL": "https://alfaromeo-ezzelarab.com/wp-content/themes/alfaromeoTheme/asset/images/ezzalarab-logo-white.png"
+}

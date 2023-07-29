@@ -1,0 +1,13 @@
+POST http://localhost:5000/cars
+Content-Type: application/json
+
+{
+    "model": "C 180",
+    "make": "mercedes ",
+    "description": "A great car built and designed by mercedes ",
+    "year": "2015",
+    "categorie": "sedan",
+    "price": 5000,
+    "imgURL": "https://i.ytimg.com/vi/eFXhKq5AqsI/maxresdefault.jpg",
+    "supplierId": "64bdc4a90edd9fda194baeb8"
+}
