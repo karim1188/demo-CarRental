@@ -1,5 +1,5 @@
 const express = require('express');
-const dotenv = require('dotenv');
+
 const cors = require('cors');
 
 // import the function that ininitiates a DB connection.
@@ -12,9 +12,7 @@ const authRouter = require('./routes/auth');
 const bookingRouter = require('./routes/Booking');
 
 // Let the dotenv package read and parse environment variables in the ./config/.env file
-dotenv.config({
-  path: './config/.env'
-});
+
 
 // Access the port environment variable using process.env
 const PORT = process.env.PORT;
